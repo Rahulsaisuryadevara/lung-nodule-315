@@ -1,0 +1,122 @@
+[
+  {
+    "time": "2025-09-23T08:55:57.378946Z",
+    "filename": "1a4baaa327374a9e95fa3637be3c9ca1.jpg",
+    "prediction": "Normal cases",
+    "confidences": [
+      0.43922150135040283,
+      0.00021776252833660692,
+      0.5605607032775879
+    ]
+  },
+  {
+    "time": "2025-09-23T09:11:48.723060Z",
+    "filename": "d84a03e469684301a570fff372155b8d.jpg",
+    "prediction": "Bengin cases",
+    "confidences": [
+      0.968752384185791,
+      7.940616342239082e-05,
+      0.031168147921562195
+    ]
+  },
+  {
+    "time": "2025-09-23T09:15:40.548105Z",
+    "filename": "df636b62769f412383f7065eab43f3fd.jpg",
+    "prediction": "Bengin cases",
+    "confidences": [
+      0.984401285648346,
+      0.00010853598359972239,
+      0.015490157529711723
+    ]
+  },
+  {
+    "time": "2025-09-23T09:20:38.640067Z",
+    "filename": "4e16573b9de0437087a9954801e94737.jpg",
+    "prediction": "Malignant cases",
+    "confidences": [
+      5.6838998785391226e-11,
+      0.9985771179199219,
+      0.0014228778891265392
+    ]
+  },
+  {
+    "time": "2025-09-23T09:25:37.829189Z",
+    "filename": "bb12889c67bb4308bee67dee6b7eb675.jpg",
+    "prediction": "Malignant cases",
+    "confidences": [
+      1.2347380007327047e-08,
+      0.9999940395355225,
+      5.9239400798105635e-06
+    ]
+  },
+  {
+    "time": "2025-09-23T09:28:06.376848Z",
+    "filename": "1a6eb3b625b840af8db897f5cbb86aa9.jpg",
+    "prediction": "Malignant cases",
+    "confidences": [
+      2.178674731112551e-05,
+      0.9999202489852905,
+      5.792405499960296e-05
+    ]
+  },
+  {
+    "time": "2025-09-23T09:30:00.100564Z",
+    "filename": "819c510c17694145988d6f1483d68d57.jpg",
+    "prediction": "Malignant cases",
+    "confidences": [
+      1.0682319953048136e-05,
+      0.9998835325241089,
+      0.00010576415661489591
+    ]
+  },
+  {
+    "time": "2025-09-23T09:56:59.230884Z",
+    "filename": "4441cf51447f408e813cb9bbe3111cbf.jpg",
+    "prediction": "Malignant cases",
+    "confidences": [
+      2.4428308768170703e-12,
+      1.0,
+      9.862323180342969e-10
+    ]
+  },
+  {
+    "time": "2025-09-23T10:14:23.744400Z",
+    "filename": "16c311f1558845fea3fde054b6856195.jpg",
+    "prediction": "Malignant cases",
+    "confidences": [
+      4.8757321097214756e-11,
+      0.9988825917243958,
+      0.0011174079263582826
+    ]
+  },
+  {
+    "time": "2025-09-24T10:46:54.003408Z",
+    "filename": "6bca222e578d4af0856dda189a8798b1.jpg",
+    "prediction": "Malignant cases",
+    "confidences": [
+      6.623055014642887e-06,
+      0.9999872446060181,
+      6.11612495049485e-06
+    ]
+  },
+  {
+    "time": "2025-10-09T04:14:12.129820Z",
+    "filename": "d66f205c44c344b39971284524acb04f.jpg",
+    "prediction": "Normal cases",
+    "confidences": [
+      7.891666427894961e-06,
+      0.00023893908655736595,
+      0.9997531771659851
+    ]
+  },
+  {
+    "time": "2025-10-09T04:18:34.855169Z",
+    "filename": "8bb5b8ce570b469994c89921af471946.jpg",
+    "prediction": "Normal cases",
+    "confidences": [
+      5.0772355280059855e-06,
+      3.717235358635662e-06,
+      0.9999911785125732
+    ]
+  }
+]

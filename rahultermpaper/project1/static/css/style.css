@@ -1,0 +1,97 @@
+/* Custom styles for Lung AI Detector */
+body {
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+/* Hide file input */
+input[type="file"] {
+    display: none;
+}
+/* Chart canvas responsive container */
+#confChart {
+    width: 100% !important;
+    max-height: 220px;
+}
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fade-in {
+    animation: fadeIn 0.6s ease-out;
+}
+/* Loading spinner animation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Hover effects for cards */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+/* Custom gradient backgrounds */
+.gradient-blue {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.gradient-green {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .text-5xl {
+        font-size: 2.5rem;
+    }
+    .text-4xl {
+        font-size: 2rem;
+    }
+}
+/* Button hover effects */
+button {
+    transition: all 0.3s ease;
+}
+button:active {
+    transform: scale(0.95);
+}
+/* Image preview styling */
+#previewImg {
+    border: 2px solid #e5e7eb;
+}
+/* Result card animation */
+#resultCard {
+    animation: fadeIn 0.5s ease-out;
+}

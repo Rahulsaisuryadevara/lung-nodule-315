@@ -1,0 +1,3 @@
+0:Bengin cases
+1:Malignant cases
+2:Normal cases

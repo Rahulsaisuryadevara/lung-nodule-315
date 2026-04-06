@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Lung Nodule Detector</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-blue-600">🫁</span>
+                    <span class="ml-2 text-xl font-bold text-gray-900">Lung AI Detector</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#demo" class="text-gray-700 hover:text-blue-600 transition">Demo</a>
+                    <a href="#methodology" class="text-gray-700 hover:text-blue-600 transition">Method</a>
+                    <a href="#results" class="text-gray-700 hover:text-blue-600 transition">Results</a>
+                    <a href="#team" class="text-gray-700 hover:text-blue-600 transition">Team</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">
+                © {% if now is defined %}{{ now.year }}{% else %}2025{% endif %} Lung AI Detector
+            </p>
+            <p class="text-gray-500 mt-2">
+                Built with ❤️ by Rahul Sai
+            </p>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
